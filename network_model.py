@@ -56,6 +56,7 @@ st.markdown(sub_title,
 screen = st.empty()
 
 # Load the trained model
+import joblib
 from joblib import load
 
 # Load the trained model
